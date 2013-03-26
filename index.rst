@@ -15,8 +15,6 @@ Contents:
 
 	integrator/index
 	product-manual/index
-	flavoursys-conventions
-
 
 Indices and tables
 ==================
