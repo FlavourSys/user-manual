@@ -2,9 +2,9 @@
    created by Mick on 21.03.2013 19:59
 .. _index:
 
-############################################
-FlavourSys Internal Manual Index (Version 4)
-############################################
+#####################################
+FlavourSys |product| Manual |version|
+#####################################
 
 Welcome to the current draft of the new documentation for |product|.  Please bear with the editors a bit till this is finished.  If you have any additions or amends, contact the right persons ;)
 
