@@ -6,23 +6,14 @@
 FlavourSys |product| Manual |version|
 #####################################
 
-Welcome to the current draft of the new documentation for |product|.  Please bear with the editors a bit till this is finished.  If you have any additions or amends, contact the right persons ;)
+Welcome to FlavourSys |product|!
 
-Contents:
+Thank you for purchasing FlavourSys |product|. The following manual will explain how to setup your 
+new |product| installation and give you an overview of the front-end user functionalities of |product|.
 
 .. toctree::
-	:maxdepth: 2
+  :maxdepth: 2
 
-	integrator/index
-	product-manual/index
-
-Indices and tables
-==================
-
-* :ref:`index`
-* :ref:`search`
-
-.. Old auto indices
-	* :ref:`genindex`
-	* :ref:`modindex`
-	* :ref:`search`
+  introduction
+  integrator/index
+  product-manual/index

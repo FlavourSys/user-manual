@@ -265,7 +265,7 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'FlavourSys %(product)s Manual' % branding
+epub_title = u'FlavourSys %(product)s Manual %(version)s' % branding
 epub_author = u'FlavourSys'
 epub_publisher = u'FlavourSys'
 epub_copyright = u'2013, FlavourSys GmbH & Co. KG'
