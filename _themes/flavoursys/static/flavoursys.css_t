@@ -1,0 +1,11 @@
+@import url("default.css");
+
+.welcome {
+  font-size: 200%;
+  line-height: 150%;
+  display: inline-block;
+}
+
+.toctree-wrapper ul {
+  list-style: none;
+}
