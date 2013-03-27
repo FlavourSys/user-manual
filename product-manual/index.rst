@@ -12,8 +12,7 @@ Contents:
 
 .. toctree::
 	:maxdepth: 2
-	:numbered:
-
+  
 	client-manual/index
 	client-manual/troubleshooting/index
 

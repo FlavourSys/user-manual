@@ -13,7 +13,8 @@ new |product| installation and give you an overview of the front-end user functi
 
 .. toctree::
   :maxdepth: 2
-
+  :numbered:
+  
   introduction
   integrator/index
   product-manual/index
