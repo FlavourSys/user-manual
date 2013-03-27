@@ -9,3 +9,13 @@
 .toctree-wrapper ul {
   list-style: none;
 }
+
+p.caption {
+  margin-top: 0.2em;
+  font-size: 80%;
+}
+
+p.caption:before {
+  content: 'Figure: ';
+  font-weight: bold;
+}

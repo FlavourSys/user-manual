@@ -2,16 +2,17 @@
    created by Mick on 21.03.2013 19:59
 .. _index:
 
-#####################################
-FlavourSys |product| Manual |version|
-#####################################
+################################
+FlavourSys Mint Manual |version|
+################################
 
 .. role:: welcome
 
 :welcome:`Welcome to FlavourSys Mint!`
 
-Thank you for purchasing FlavourSys |product|. The following manual will explain how to setup your 
-new |product| installation and give you an overview of the front-end user functionalities of |product|.
+Thank you for purchasing FlavourSys Mint. The following manual will explain how to setup your
+new Mint installation and give you an overview of the front-end user functionalities of 
+Mint.
 
 .. toctree::
   :maxdepth: 2
@@ -21,4 +22,3 @@ new |product| installation and give you an overview of the front-end user functi
   installation/index
   user-manual/index
   troubleshooting/index
-

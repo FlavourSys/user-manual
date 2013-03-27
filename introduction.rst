@@ -4,4 +4,4 @@
 Introduction
 ############
 
-|product| is the new!
+Mint is the new kid in town!

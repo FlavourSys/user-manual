@@ -157,6 +157,9 @@ html_favicon = 'images/favicon.ico'
 # template names.
 #html_additional_pages = {}
 
+# Disable permalinks
+html_add_permalinks = None
+
 # If false, no module index is generated.
 #html_domain_indices = True
 

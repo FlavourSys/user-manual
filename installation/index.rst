@@ -11,6 +11,7 @@ This is the index for the installation for integrators section of the |product| 
 Contents:
 
 .. toctree::
-	:maxdepth: 2
-  
-	installation
+  :maxdepth: 2
+
+  backend
+  client
