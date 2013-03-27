@@ -2,9 +2,9 @@
    created by Mick on 21.03.2013 17:11
 .. _index_integrator:
 
-############################################
-Index of Installation Manual for Integrators
-############################################
+############
+Installation
+############
 
 This is the index for the installation for integrators section of the |product| Manual.
 
@@ -14,10 +14,3 @@ Contents:
 	:maxdepth: 2
   
 	installation
-
-
-Indices and tables
-==================
-
-* :ref:`index`
-* :ref:`search`

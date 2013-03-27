@@ -18,3 +18,5 @@ new |product| installation and give you an overview of the front-end user functi
   introduction
   installation/index
   user-manual/index
+  troubleshooting/index
+

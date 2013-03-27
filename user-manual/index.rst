@@ -2,9 +2,9 @@
    created by Mick on Fri 23.11.2012 15:00
 .. _index_client_manual:
 
-#############################
-|product| Client Manual Index
-#############################
+###########
+User Manual
+###########
 
 This is the index for the client section of the |product| Manual.
 
@@ -15,11 +15,3 @@ Contents:
 
 	project-new
 	project-open
-	troubleshooting/index
-
-
-Indices and tables
-==================
-
-* :ref:`index`
-* :ref:`search`
