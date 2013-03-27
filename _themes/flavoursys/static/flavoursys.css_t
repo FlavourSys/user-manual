@@ -1,21 +1,31 @@
 @import url("default.css");
 
+/* Welcome heading is not actually a heading, but still BIG */
 .welcome {
   font-size: 200%;
   line-height: 150%;
   display: inline-block;
 }
 
+/* No bullets in TOC */
 .toctree-wrapper ul {
   list-style: none;
 }
 
+/* Figure captions */
 p.caption {
   margin-top: 0.2em;
   font-size: 80%;
 }
-
 p.caption:before {
   content: 'Figure: ';
   font-weight: bold;
+}
+
+/* Field lists: Why is the first column so small? */
+table.field-list colgroup col.field-name {
+  width: 150px;
+}
+table.field-list tr {
+  margin-bottom: 0.2em;
 }

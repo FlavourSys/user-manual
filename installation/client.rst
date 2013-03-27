@@ -33,11 +33,19 @@ process.
 Basic Configuration
 ===================
 
-On its first page, the wizard will ask you for some basic settings. 
+On its first page, the wizard will ask you for some basic settings. Apart from the 
+explanations in the wizard itself, please adhere to the following standards:
 
+:Edit name: The edit name should be unique among all edit stations. It is advisable 
+  to come up with some continuous naming scheme for your edits, if you do not already 
+  have one. Edit names may only consist of (Latin) characters, numbers, and underscores.
+
+:Storage type: blablabla
+
+.. _fig-basic-configuration-windows:
 .. figure:: images/basic.png
   :align: center
-  :alt: Mint: Click on the new button
+  :alt: Basic Configuration
 
   Basic Configuration
 
