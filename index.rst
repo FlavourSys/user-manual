@@ -6,7 +6,9 @@
 FlavourSys |product| Manual |version|
 #####################################
 
-Welcome to FlavourSys |product|!
+.. role:: welcome
+
+:welcome:`Welcome to FlavourSys Mint!`
 
 Thank you for purchasing FlavourSys |product|. The following manual will explain how to setup your 
 new |product| installation and give you an overview of the front-end user functionalities of |product|.
