@@ -86,11 +86,18 @@ as network drives on the client.
 .. note::
   It is important that you use the same drive letters for the network 
   shares on all edits, as your editing projects will only be able to find referenced
-  media files if the the filesystem paths stay consistent.
+  media files if the the filesystem paths stay consistent. ``M:`` and ``P:`` for 
+  media resp. project share have proven to be a very intuitive configuration.
 
 ==================
 Edit Configuration
 ==================
+
+After the mounts have been created, you need to inform the Mint client about the 
+new local setup. In a NAS-based environment, you only need to select which of your 
+newly-created network drives is the project drive, and which network drives are 
+the media drives. Please make sure to not forget any of them, as the Mint client 
+will refuse to work if it does not have access to all shares.
 
 .. _fig-edit-configuration-windows:
 .. figure:: images/edit_configuration.png
@@ -98,6 +105,20 @@ Edit Configuration
   :alt: Edit Configuration
 
   Edit Configuration
+
+In a SAN environment, you now have to specify which directories from the global 
+mount should be mounted as local drives by the Mint client. For this purpose, browse
+to the ``projects/edits/editname`` directory on your global mount, select a 
+drive letter (e.g., ``P:``), and click **Add**. Repeat this process for all the 
+media shares. Finally, indicate which one is the project share by selecting the 
+corresponding radio button in the table at the bottom.
+
+.. _fig-edit-configuration-san-windows:
+.. figure:: images/edit_configuration_san.png
+  :align: center
+  :alt: Edit Configuration (SAN)
+
+  Edit Configuration (SAN)
 
 **************************************
 Initial Configuration (Apple Mac OS X)
