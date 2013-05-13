@@ -40,7 +40,11 @@ explanations in the wizard itself, please adhere to the following standards:
   to come up with some continuous naming scheme for your edits, if you do not already 
   have one. Edit names may only consist of (Latin) characters, numbers, and underscores.
 
-:Storage type: blablabla
+:Create SMB user: In case you have a NAS storage solution, the Mint server can 
+  automatically create a SMB user for you, using the edit's name as the username. 
+  The randomly generated password will be sent back to the client in the next step. 
+  If you need to manage SMB users yourself or are using a authentication-less setup, 
+  please uncheck this option.
 
 .. _fig-basic-configuration-windows:
 .. figure:: images/basic.png
@@ -49,8 +53,64 @@ explanations in the wizard itself, please adhere to the following standards:
 
   Basic Configuration
 
+==========
+Edit Setup
+==========
+
+After the edit has been created successfully, the wizard will continue to the **Edit 
+Setup** page. It is now time to mount the edit share directories from the storage 
+as network drives on the client.
+
+- In a NAS environment, go to the Windows Explorer and select **Map Network Drive** 
+  from the **Tools** menu. In the dialog window, select **Browse** and click on the 
+  IP address or hostname of the Mint server. You will now be asked for your username
+  and password, please make sure to select **Remember credentials** here. Once 
+  you entered your credentials, a list of network shares will appear underneath 
+  the server entry. Select one of them and assign it a drive letter. Make sure 
+  to select **Reconnect at logon** before finishing the setup.
+  Repeat the process until all shares are mounted. Usually, you will have to mount 
+  at least one media share and the project share.
+
+- In a SAN environment, use the SAN manufacturer's provided tools to create a persistent
+  global mount of your storage. Use any of the available drive letters but those 
+  that you want your project and media shares to use, as the Mint client will automatically
+  map the edit directories from the global mount to these drives for you.
+
+.. _fig-edit-setup-windows:
+.. figure:: images/edit_setup.png
+  :align: center
+  :alt: Edit Setup
+
+  Edit Setup
+
+.. note::
+  It is important that you use the same drive letters for the network 
+  shares on all edits, as your editing projects will only be able to find referenced
+  media files if the the filesystem paths stay consistent.
+
+==================
+Edit Configuration
+==================
+
+.. _fig-edit-configuration-windows:
+.. figure:: images/edit_configuration.png
+  :align: center
+  :alt: Edit Configuration
+
+  Edit Configuration
+
 **************************************
 Initial Configuration (Apple Mac OS X)
 **************************************
 
+To start the client on Mac OS X, you can hit the Apple button and spacebar simultaneously 
+to open the quick start bar (top right corner). Type **Mint Client** here.
+
+.. note::
+  In case the Mint Client does not show up in the quick start bar (indexing may 
+  take some time), you can also find it in the ``Applications`` directory.
+
+===================
+Basic Configuration
+===================
 
