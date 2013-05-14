@@ -38,4 +38,6 @@ editing project may have.
 Supported Setups
 ****************
 
-foobarfoobarfoobar
+Please note that using Mac OS X and SAN, the Mint Client needs administrator privileges 
+in order to create virtual volumes. For this purpose, it will ask the user to provide
+his password on its first run after each reboot of the host machine.

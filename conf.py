@@ -32,7 +32,7 @@ branding = {
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 # extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.todo', 'sphinx.ext.ifconfig']
 sys.path.append(os.path.abspath('_exts'))
-extensions = ['field_name_limit']
+extensions = ['field_name_limit', 'sphinx.ext.todo']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -312,3 +312,7 @@ rst_epilog = """
 .. |product| replace:: %(product)s
 .. |version| replace:: %(version)s
 """ % branding
+
+# Enable TODOS
+[extensions]
+todo_include_todos=True
