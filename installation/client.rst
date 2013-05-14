@@ -124,6 +124,10 @@ corresponding radio button in the table at the bottom.
 Initial Configuration (Apple Mac OS X)
 ======================================
 
+The configuration process of the Mint Client on Mac OS X is very similar to Microsoft 
+Windows. For the generic configuration options, please refer to the Windows section 
+above.
+
 To start the client on Mac OS X, you can hit the Apple button and spacebar simultaneously 
 to open the quick start bar (top right corner). Type **Mint Client** here.
 
@@ -131,7 +135,33 @@ to open the quick start bar (top right corner). Type **Mint Client** here.
   In case the Mint Client does not show up in the quick start bar (indexing may 
   take some time), you can also find it in the ``Applications`` directory.
 
--------------------
-Basic Configuration
--------------------
+----------
+Edit Setup
+----------
 
+In a NAS environment, after having finished the **Basic Configuration** step of the configuration 
+wizard, it is necessary to mount the edit directories as network shares. Mac OS X offers several
+different ways to setup persistent network volumes (i.e., *drives* on Windows), including using 
+a sophisticated boot script (e.g., a AppleScript). However, since this step only performed to be done 
+once, we recommend to mount the network shares directly using the **Finder** application.
+
+* Click on the **Finder** icon in the toolbar at the bottom of the screen.
+* In the **Go** menu, select **Connect to Server**.
+* Mount the media volumes via the SMB protocol by typing the address of the Mint 
+  server in the popup dialog (e.g., ``smb://192.168.0.10/``). You will be asked 
+  for user credentials automatically. Please make sure to instruct the Finder to 
+  save these credentials.
+* Mount the project volume via the NFS protocol. Since NFS does not have a notion 
+  SMB-like *shares*, it is necessary to enter the full path to the edit directory 
+  here, for instance ``nfs://192.168.0.10/storage_root/projects/edits/heisenberg``.
+* In order to let Mac OS X automatically remount these network volumes when the 
+  user logs in, you need to drag the volume icons to the **Drives** section in 
+  the Finder's left frame. Afterwards, open the **System Preferences** application 
+  from the toolbar, go to **Users & Groups** and open the **Login Items** panel. 
+  After you have added the network volumes to the list of login items, Mac OS X 
+  will automatically mount them after on login.
+
+In a SAN environment, you need to create a global mount of the storage filesystem 
+using the tools provided by the SAN manufacturer. Please refer to the SAN manufacturer's 
+user manual for more information and make sure the global mount persists across 
+system reboots.
