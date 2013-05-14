@@ -38,6 +38,20 @@ editing project may have.
 Supported Setups
 ****************
 
+.. todo:: explicitly name SAN types (StorNext, HyperFS)
+
+==========  ============  ==================
+Client OS   Storage Type  Network Connection
+==========  ============  ==================
+MS Windows  NAS           CIFS/SMB
+MS Windows  SAN           (SAN manufacturer)
+Mac OS X    NAS           CIFS/SMB + NFS
+Mac OS X    NAS           Dave [#dave]_
+Mac OS X    SAN           (SAN manufacturer)
+==========  ============  ==================
+
 Please note that using Mac OS X and SAN, the Mint Client needs administrator privileges 
 in order to create virtual volumes. For this purpose, it will ask the user to provide
 his password on its first run after each reboot of the host machine.
+
+.. [#dave] http://www.thursby.com/products/dave.html
