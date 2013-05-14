@@ -1,6 +1,4 @@
-.. FlavourSys Strawberry documentation usage master file,
-   created by Mick on Fri 23.11.2012 15:00
-.. _index_troubleshooting_index:
+.. _index_troubleshooting:
 
 ###############
 Troubleshooting

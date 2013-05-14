@@ -1,12 +1,10 @@
-.. FlavourSys Strawberry integrator installation master file,
-   created by Mick on 21.03.2013 17:11
-.. _index_integrator:
+.. _index_installation:
 
-############
-Installation
-############
+###############
+Getting Started
+###############
 
-This is the index for the installation for integrators section of the |product| Manual.
+Blablablabla.
 
 Contents:
 

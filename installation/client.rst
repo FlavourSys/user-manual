@@ -1,13 +1,13 @@
-###########################
+***************************
 Configuring the Mint client
-###########################
+***************************
 
 After you have completed the setup of the |product| server, you will need to install 
 and configure the |product| client on each of your editing stations. 
 
-*************************
+=========================
 Download and installation
-*************************
+=========================
 
 Open your web browser of choice and enter the IP address or hostname of the |product| server 
 in the address bar, followed by ``/download``, for example ``http://192.168.0.10/download``. 
@@ -20,18 +20,18 @@ installation has finished, fire up the client application to start the configura
   setting. If it fails to deliver the installer, you can also find it in the ``setups``
   directory within the server installation directory.
 
-*****************************************
+=========================================
 Initial Configuration (Microsoft Windows)
-*****************************************
+=========================================
 
 To start the client, choose **Mint Client** from the **FlavourSys** folder in the 
 Windows start menu. Since the client has not been run before, this will automatically 
 bring up the configuration wizard, which will guide you through the configuration 
 process.
 
-===================
+-------------------
 Basic Configuration
-===================
+-------------------
 
 On its first page, the wizard will ask you for some basic settings. Apart from the 
 explanations in the wizard itself, please adhere to the following standards:
@@ -53,9 +53,9 @@ explanations in the wizard itself, please adhere to the following standards:
 
   Basic Configuration
 
-==========
+----------
 Edit Setup
-==========
+----------
 
 After the edit has been created successfully, the wizard will continue to the **Edit 
 Setup** page. It is now time to mount the edit share directories from the storage 
@@ -89,9 +89,9 @@ as network drives on the client.
   media files if the the filesystem paths stay consistent. ``M:`` and ``P:`` for 
   media resp. project share have proven to be a very intuitive configuration.
 
-==================
+------------------
 Edit Configuration
-==================
+------------------
 
 After the mounts have been created, you need to inform the Mint client about the 
 new local setup. In a NAS-based environment, you only need to select which of your 
@@ -120,9 +120,9 @@ corresponding radio button in the table at the bottom.
 
   Edit Configuration (SAN)
 
-**************************************
+======================================
 Initial Configuration (Apple Mac OS X)
-**************************************
+======================================
 
 To start the client on Mac OS X, you can hit the Apple button and spacebar simultaneously 
 to open the quick start bar (top right corner). Type **Mint Client** here.
@@ -131,7 +131,7 @@ to open the quick start bar (top right corner). Type **Mint Client** here.
   In case the Mint Client does not show up in the quick start bar (indexing may 
   take some time), you can also find it in the ``Applications`` directory.
 
-===================
+-------------------
 Basic Configuration
-===================
+-------------------
 

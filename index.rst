@@ -18,7 +18,7 @@ Mint.
   :maxdepth: 2
   :numbered:
 
-  introduction
+  introduction/index
   installation/index
   user-manual/index
   troubleshooting/index
