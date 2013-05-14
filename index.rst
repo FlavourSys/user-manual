@@ -1,5 +1,3 @@
-.. FlavourSys Strawberry documentation master file,
-   created by Mick on 21.03.2013 19:59
 .. _index:
 
 ################################
