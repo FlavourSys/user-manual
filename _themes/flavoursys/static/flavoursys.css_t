@@ -22,10 +22,12 @@ p.caption:before {
   font-weight: bold;
 }
 
-/* Field lists: Why is the first column so small? */
-table.field-list colgroup col.field-name {
-  width: 150px;
-}
 table.field-list tr {
-  margin-bottom: 0.2em;
+  margin-bottom: 200px; /* TODO: Mick */
+}
+
+table.field-list th {
+  width: 150px;
+  background-color: #ddd;
+  border-radius: 5px;
 }
