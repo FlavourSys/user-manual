@@ -9,7 +9,7 @@ and configure the |product| client on each of your editing stations.
 Download and installation
 =========================
 
-Open your web browser of choice and enter the IP address or hostname of the |product| server 
+Open your web browser of choice and enter the IP address or host name of the |product| server 
 in the address bar, followed by ``/download``, for example ``http://192.168.0.10/download``. 
 The server will automatically send you the correct installer program for your operating 
 system. Open the installer and complete the installation procedure as usual. After the 
@@ -41,7 +41,7 @@ explanations in the wizard itself, please adhere to the following standards:
   have one. Edit names may only consist of (Latin) characters, numbers, and underscores.
 
 :Create SMB user: In case you have a NAS storage solution, the Mint server can 
-  automatically create a SMB user for you, using the edit's name as the username. 
+  automatically create a SMB user for you, using the edit's name as the user name. 
   The randomly generated password will be sent back to the client in the next step. 
   If you need to manage SMB users yourself or are using a authentication-less setup, 
   please uncheck this option.
@@ -63,7 +63,7 @@ as network drives on the client.
 
 - In a NAS environment, go to the Windows Explorer and select **Map Network Drive** 
   from the **Tools** menu. In the dialog window, select **Browse** and click on the 
-  IP address or hostname of the Mint server. You will now be asked for your username
+  IP address or host name of the Mint server. You will now be asked for your user name
   and password, please make sure to select **Remember credentials** here. Once 
   you entered your credentials, a list of network shares will appear underneath 
   the server entry. Select one of them and assign it a drive letter. Make sure 
@@ -86,7 +86,7 @@ as network drives on the client.
 .. note::
   It is important that you use the same drive letters for the network 
   shares on all edits, as your editing projects will only be able to find referenced
-  media files if the the filesystem paths stay consistent. ``M:`` and ``P:`` for 
+  media files if the the file system paths stay consistent. ``M:`` and ``P:`` for 
   media resp. project share have proven to be a very intuitive configuration.
 
 ------------------
@@ -128,7 +128,7 @@ The configuration process of the Mint Client on Mac OS X is very similar to Micr
 Windows. For the generic configuration options, please refer to the Windows section 
 above.
 
-To start the client on Mac OS X, you can hit the Apple button and spacebar simultaneously 
+To start the client on Mac OS X, you can hit the Apple button and space bar simultaneously 
 to open the quick start bar (top right corner). Type **Mint Client** here.
 
 .. note::
@@ -148,7 +148,7 @@ once, we recommend to mount the network shares directly using the **Finder** app
 * Click on the **Finder** icon in the toolbar at the bottom of the screen.
 * In the **Go** menu, select **Connect to Server**.
 * Mount the media volumes via the SMB protocol by typing the address of the Mint 
-  server in the popup dialog (e.g., ``smb://192.168.0.10/``). You will be asked 
+  server in the pop up dialog (e.g., ``smb://192.168.0.10/``). You will be asked 
   for user credentials automatically. Please make sure to instruct the Finder to 
   save these credentials.
 * Mount the project volume via the NFS protocol. Since NFS does not have a notion 
@@ -161,7 +161,7 @@ once, we recommend to mount the network shares directly using the **Finder** app
   After you have added the network volumes to the list of login items, Mac OS X 
   will automatically mount them after on login.
 
-In a SAN environment, you need to create a global mount of the storage filesystem 
+In a SAN environment, you need to create a global mount of the storage file system 
 using the tools provided by the SAN manufacturer. Please refer to the SAN manufacturer's 
 user manual for more information and make sure the global mount persists across 
 system reboots.
