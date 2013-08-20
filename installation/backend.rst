@@ -1,9 +1,9 @@
 ****************************
-Installing the Mint back end
+Installing the Mint back-end
 ****************************
 
-So you decided to install the Mint back end yourself? That's great! Technically, 
-the Mint back end can be considered a quite ordinary web application. It is driven by the magnificent
+So you decided to install the Mint back-end yourself? That's great! Technically, 
+the Mint back-end can be considered a quite ordinary web application. It is driven by the magnificent
 RubyOnRails framework and therefore should run on any recent *GNU/Linux*
 distribution as well as other UNIX derivatives, such as Apple's *Darwin* and *BSD-based* distributions.
 The installation process follows the standard procedure of installing a
@@ -12,10 +12,10 @@ database, configuring the web service itself and, last but not least, firing up
 the web service (at boot time). Nothing we haven't done before, right?
 
 However, for the sake of convenience we created an installation script which
-automates the procedure for the most common systems on which the Mint back end is
+automates the procedure for the most common systems on which the Mint back-end is
 likely to be installed. This means both a *common* GNU/Linux server distribution (Red Hat/CentOS
 5.x-6.x or Debian 6.x-7.x) and a *fresh* installation, i.e., no pre-configured web server, no obscure
-NicheSQL database and the like. In case you are going to install the Mint back end
+NicheSQL database and the like. In case you are going to install the Mint back-end
 on a BSD derivative, or on an Apple Mac OSX system, or on your four-decades-old
 mainframe - **which is just perfect** - you may experience some shortcomings of the
 installation script. In this case we would kindly ask you to *infer* the necessary installation 
@@ -66,7 +66,7 @@ the ``tasks/`` directory. We are going to implement a *Skip* feature in the
 next installer version, promise.
 
 When the installer has completed all its tasks, you should have a running Mint
-back end on your server, using a `Nginx <http://nginx.org/>`_ web server, a
+back-end on your server, using a `Nginx <http://nginx.org/>`_ web server, a
 `Ruby <http://www.ruby-lang.org/>`_ 1.9.3 interpreter, and a 
 `MySQL <http://www.mysql.com/>`_ database.
 
@@ -74,14 +74,14 @@ back end on your server, using a `Nginx <http://nginx.org/>`_ web server, a
 The manual way *or* What did you do to my system?!
 ==================================================
 
-In the following, we will describe how to manually setup the Mint back end As
+In the following, we will describe how to manually setup the Mint back-end As
 said before, the installation resembles the standard procedure of setting up a
 RubyOnRails web application. We will describe the setup process as done by
 the Mint installer, you may choose to walk down a different path where it seems
 fit.
 
-The software infrastructure of the Mint back end is shown below. The installer
-puts the Mint back end to its own directory below ``/opt/mint``, as well as any
+The software infrastructure of the Mint back-end is shown below. The installer
+puts the Mint back-end to its own directory below ``/opt/mint``, as well as any
 third-party software not installed via the operating system's package manager
 (e.g., Ruby, Strawrage). You may choose a different installation location, however, 
 please make sure that everything is available to root by updating your ``PATH``
@@ -90,15 +90,15 @@ and dynamic linker configuration.
 .. _fig-software-infrastructure:
 .. figure:: images/infrastructure.svg
   :align: center
-  :alt: Software infrastructure of the Mint back end
+  :alt: Software infrastructure of the Mint back-end
 
-  Software infrastructure of the Mint back end
+  Software infrastructure of the Mint back-end
 
 -------------------
 System requirements
 -------------------
 
-The Mint back end depends on only a few third-party software packages, of which most 
+The Mint back-end depends on only a few third-party software packages, of which most 
 should be available for any Unix-like operating system. The full list of packages
 installed by the installer script can be found in ``tasks/0x_system_packages.sh``.
 If you would like to come up with your own list or if your operating system does
@@ -124,7 +124,7 @@ not have all the listed packages, please make sure your system has at least the 
 Ruby 1.9.3
 ----------
 
-Since the Mint back end is implemented as a RubyOnRails web application, we need
+Since the Mint back-end is implemented as a RubyOnRails web application, we need
 a recent Ruby interpreter available to the root user. The current Mint revision
 uses **Ruby 1.9.3p448**. You may either install Ruby using your operating
 systems package manager or compile it from source, as done by the Mint
@@ -148,15 +148,15 @@ correct version number by running as root::
 MySQL Database
 --------------
 
-For storing the project meta data and relations, the Mint back end requires a SQL
+For storing the project metadata and relations, the Mint back-end requires a SQL
 database server, which can either be running locally or remote depending on
 the scale of your setup. The Mint installer configures a MySQL database to run
 locally on the same host as the web application, however, any other major SQL
 database (e.g., PostgreSQL, Oracle) should be fine too. Unfortunately, the Mint
-back end is known to have problems with the SQLite database.
+back-end is known to have problems with the SQLite database.
 
 Once you have setup your favorite database server, you need to create an user
-and a production database for the Mint back end The syntax for a local MySQL server
+and a production database for the Mint back-end The syntax for a local MySQL server
 would be as follows::
 
     CREATE USER 'mint'@'localhost' IDENTIFIED BY 'password';
@@ -172,7 +172,7 @@ The first software application the Mint client talks to on the the server is
 the HTTP daemon. The most popular one is called `Apache
 <http://httpd.apache.org/>`_, it is running 
 `approximately half <http://news.netcraft.com/archives/category/web-server-survey/>`_ 
-of the web servers connected to the world wide web. For the Mint back end, we
+of the web servers connected to the world wide web. For the Mint back-end, we
 chose one of the rising stars on the HTTP daemon market, Nginx, mostly for its
 simplicity and easy configuration. However, you can choose to serve the HTTP
 requests using any HTTP daemon capable of a `reverse proxy` configuration. In
@@ -201,7 +201,7 @@ specify the paths to be used for Thin's Unix sockets.
 Afterwards, you need to make sure Thin is started at boot time. We provide an
 init script for GNU/Linux machines in
 ``lib/examples/debian_initscript.example``. If your operating system uses a
-different initialization system, you may need to write your own start up
+different initialization system, you may need to write your own start-up
 script.
 
 ---------
