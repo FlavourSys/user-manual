@@ -1,10 +1,8 @@
 .. _index_installation:
 
-###############
-Getting Started
-###############
-
-Blablablabla.
+############
+Installation
+############
 
 Contents:
 

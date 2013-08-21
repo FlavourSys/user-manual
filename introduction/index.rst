@@ -4,23 +4,18 @@
 Introduction
 ############
 
-FlavourSys Mint is the little sister of the award-winning FlavourSys Strawberry.
-
-*****************
-The Mint Workflow
-*****************
-
-lorem ipsum dolor sit amet
-
-* Mint project: container for files, lives on the storage, backups
-* Mint subprojects: relations between project, readonly subprojects for media sharing, transitive relations
-* Virtual drives? same setup on all edit stations allows for easy transfer of projects
+Mint is a software-only product by FlavourSys that was created for small to 
+medium sized video post productions. Mint enables project sharing for Avid©,
+Adobe and Final Cut editing projects and can be easily installed on most
+Unix/Linux based NAS or SAN systems, optimizing them for collaborative video
+editing, including all the benefits of secure project sharing and bin/project
+locking.
 
 *******************
 System Requirements
 *******************
 
-The Mint appliance requires the following minimum software configuration:
+Mint requires the following minimum software configuration:
 
 :Mint Server: Recent Linux distributions (Kernel 2.6.32 or higher, Ruby 1.9 and higher, GCC, MySQL 
   database), recent BSD derivatives (e.g., FreeBSD 9.0 or higher, with Ruby, MySQL, 

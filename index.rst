@@ -9,7 +9,7 @@ FlavourSys Mint Manual |version|
 :welcome:`Welcome to FlavourSys Mint!`
 
 Thank you for purchasing FlavourSys Mint. The following manual will explain how to setup your
-new Mint installation and give you an overview of the front-end user functionalities of 
+new Mint installation and give you an overview of the front end user functionalities of 
 Mint.
 
 .. toctree::

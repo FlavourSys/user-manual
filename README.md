@@ -18,8 +18,7 @@ The following is based on [Mac Ports](http://www.macports.org/install.php).
 
 ### On Windows
 
-[tbc.]
-
+Ask Marc. He has done it before.
 
 ## Usage
 
