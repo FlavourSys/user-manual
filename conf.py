@@ -15,7 +15,7 @@ import sys, os
 
 branding = {
     'product': 'Mint',
-    'version': '0.5.0'
+    'version': '1.0.0'
 }
 
 # If extensions (or modules to document with autodoc) are in another directory,
