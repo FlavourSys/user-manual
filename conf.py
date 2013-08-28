@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'FlavourSys %(product)s Manual' % branding
-copyright = u'2013, FlavourSys GmbH & Co. KG'
+copyright = u'2013, FlavourSys Technology GmbH'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
