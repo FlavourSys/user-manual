@@ -31,3 +31,17 @@ table.field-list th {
   background-color: #ddd;
   border-radius: 5px;
 }
+
+/* Buttons */
+strong.admin-ui-button, strong.client-ui-button {
+  padding: 0px 3px;
+
+  border: 1px solid black;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.4);
+
+  font-weight: normal;
+  color: white;
+}
+
+strong.admin-ui-button { background-color: #3c484f; }
+strong.client-ui-button { background-color: #0e3d59; }

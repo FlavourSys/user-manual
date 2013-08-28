@@ -190,6 +190,9 @@ html_show_sphinx = False
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'FShelp'
 
+# Omit the trailing '.' for secnumbers.
+html_secnumber_suffix = ' '
+
 # -- Options for LaTeX output --------------------------------------------------
 
 latex_elements = {

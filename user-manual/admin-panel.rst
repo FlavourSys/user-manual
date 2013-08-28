@@ -1,3 +1,5 @@
+.. role:: admin_ui_button(strong)
+
 ************************
 Admin Software Functions
 ************************
@@ -15,9 +17,9 @@ The project tab
 Delete a Project
 ^^^^^^^^^^^^^^^^
 
-Select the project you want to delete and click the “Delete” button. 
+Select the project you want to delete and click the :admin_ui_button:`DELETE` button. 
 You will be asked to confirm the deletion. If you are sure to delete 
-the project confirm this question with “Yes” or press “Cancel” if not. 
+the project confirm this question with :admin_ui_button:`YES` or press :admin_ui_button:`CANCEL` if not. 
 If you delete a project, Mint will only delete the project and media files 
 from this particular project but not from its sub projects or parent projects. 
 
@@ -34,9 +36,9 @@ Force close a project
 
 If for any reason it is not possible to close a project on the client 
 computer (e.g. OS or power supply failure) you can force close this project 
-from the Mint admin panel by selecting the project and clicking “Force Close”. 
+from the Mint admin panel by selecting the project and clicking :admin_ui_button:`FORCE CLOSE`. 
 Please never force close projects that are actively opened by an editor! 
-The editor could lose unsaved progress and will experience “media offline” issues”.
+The editor could lose unsaved progress and will experience *media offline* issues.
 
 ------------------
 Managing Templates
@@ -51,16 +53,19 @@ creation.
 Creating a template
 ^^^^^^^^^^^^^^^^^^^
 
-In order to create a template, click on the “Template” tab in the admin panel
-and then the “Create New” button. You will see a shadow box asking for a template
+In order to create a template, click on the :admin_ui_button:`TEMPLATES` tab in the admin panel
+and then the :admin_ui_button:`CREATE NEW` button. You will see a shadow box asking for a template
 name, a template preset, and a substitution token & pattern. The presets are
 optimized for certain editing applications.
 
-* **Generic**: Use this preset for templates which will not be Avid or Adobe
-  related.
-* **Avid**: Use this preset for editing applications of the Avid product
-  family.
-* **Adobe**: Use this preset for Adobe Premiere and Adobe After Effects.
+generic
+  Use this preset for templates which will not be Avid or Adobe related.
+
+avid
+  Use this preset for editing applications of the Avid product family.
+
+adobe
+  Use this preset for Adobe Premiere and Adobe After Effects.
 
 The substitution token is a string that will be replaced by the substition pattern 
 in file and directory names contained in the project template. The substitution
@@ -76,7 +81,7 @@ and the subsitution token was *%Y%m%d-%{name}*, the file may be named
 *130101-projectname.avp* in a newly created project.
 
 Once you feel confident that the template matches your requirements click
-“Create”. The job is not exactly done now. Point your file browser to the
+:admin_ui_button:`CREATE`. The job is not exactly done now. Point your file browser to the
 *templates/* directory on the storage and navigate to the newly created
 template's directory. You will see a folder *project* and a folder for each of
 your media storages. You may create custom file and folder structures inside
@@ -105,5 +110,5 @@ The License Tab
 ---------------
 
 After you purchased a license, you will get a license key that you paste in the
-*Upload license* field. Click *Update* to confirm and restart the Mint backend.
+*Upload license* field. Click :admin_ui_button:`UPDATE` to confirm and restart the Mint backend.
 No editing system should be continue while updating the license.
