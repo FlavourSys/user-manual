@@ -4,8 +4,6 @@
 User Manual
 ###########
 
-Contents:
-
 .. toctree::
   :maxdepth: 2
 
