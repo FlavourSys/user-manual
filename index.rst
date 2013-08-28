@@ -19,4 +19,3 @@ Mint.
   introduction/index
   installation/index
   user-manual/index
-  troubleshooting/index
