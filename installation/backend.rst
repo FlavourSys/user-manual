@@ -88,7 +88,7 @@ please make sure that everything is available to root by updating your ``PATH``
 and dynamic linker configuration.
 
 .. _fig-software-infrastructure:
-.. figure:: images/infrastructure.svg
+.. figure:: images/infrastructure.png
   :align: center
   :alt: Software infrastructure of the Mint back-end
 

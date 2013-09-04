@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'FlavourSys %(product)s Manual' % branding
+project = u'FlavourSys Mint Manual'
 copyright = u'2013, FlavourSys Technology GmbH'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -209,7 +209,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-    ('index', 'FlavourSysManual.tex', u'FlavourSys Manual',
+    ('index', 'FlavourSysMintManual.tex', u'FlavourSys Mint Manual',
         u'FlavourSys', 'manual'),
 ]
 
@@ -318,4 +318,4 @@ rst_epilog = """
 
 # Enable TODOS
 [extensions]
-todo_include_todos=True
+todo_include_todos=False
