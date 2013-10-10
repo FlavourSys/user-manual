@@ -78,7 +78,7 @@ placeholder *%{name}* will be replaced by the name of the project.
 
 For example, if the template contained a Avid project called *replace_me_1080i.avp*, 
 and the subsitution token was *%Y%m%d-%{name}*, the file may be named
-*130101-projectname.avp* in a newly created project.
+*130101-projectname_1080i.avp* in a newly created project.
 
 Once you feel confident that the template matches your requirements click
 :admin_ui_button:`CREATE`. The job is not exactly done now. Point your file browser to the
