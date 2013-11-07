@@ -1,8 +1,8 @@
 .. role:: admin_ui_button(strong)
 
-************************
-Admin Software Functions
-************************
+********************
+Administration Panel
+********************
 
 To open the admin panel please visit ``http://<ip_of_mint_server>/`` in your
 web browser and login with your administrator password. The default administrator
@@ -48,6 +48,8 @@ Mint allows you to create templates for all kind of editing projects.
 These templates can contain custom files and folder structure.
 Once a template is created, it can be chosen by the editor upon project
 creation. 
+
+.. _creating-a-template:
 
 ^^^^^^^^^^^^^^^^^^^
 Creating a template

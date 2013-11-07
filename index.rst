@@ -18,4 +18,5 @@ Mint.
 
   introduction/index
   installation/index
+  administration/index
   user-manual/index

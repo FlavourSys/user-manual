@@ -9,4 +9,3 @@ User Manual
 
   mint-workflow
   user-interface
-  admin-panel
