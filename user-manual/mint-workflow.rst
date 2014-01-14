@@ -16,7 +16,7 @@ A Mint project on the file level can include:
 * Different types of media files (\*.mov, \*.mxf. \*.omf, etc.)
 * Discs and cartridges from different cameras (XDCAM EX, P2, Red One, etc.)
 * AMA objects
-* And more...
+* And more..
 
 A Mint project on the metadata level includes:
 
