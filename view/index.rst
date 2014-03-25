@@ -1,4 +1,4 @@
-.. _index_installation:
+.. _index_view:
 
 ####
 VIEW

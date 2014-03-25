@@ -1,4 +1,4 @@
-.. _index_client_manual:
+.. _index_projects:
 
 ########
 Projects
