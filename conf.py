@@ -14,7 +14,7 @@
 import sys, os
 
 branding = {
-    'product': 'Mint',
+    'product': 'Strawberry 4 Admin',
     'version': '1.0.0'
 }
 
@@ -47,8 +47,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'FlavourSys Mint Manual'
-copyright = u'2013, FlavourSys Technology GmbH'
+project = u'FlavourSys Strawberry 4 Admin Manual'
+copyright = u'2014, FlavourSys Technology GmbH'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -209,7 +209,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-    ('index', 'FlavourSysMintManual.tex', u'FlavourSys Mint Manual',
+    ('index', 'FlavourSysMintManual.tex', u'FlavourSys Strawberry 4 Admin Manual',
         u'FlavourSys', 'manual'),
 ]
 
@@ -274,7 +274,7 @@ texinfo_documents = [
 epub_title = u'FlavourSys %(product)s Manual %(version)s' % branding
 epub_author = u'FlavourSys'
 epub_publisher = u'FlavourSys'
-epub_copyright = u'2013, FlavourSys GmbH & Co. KG'
+epub_copyright = u'2014, FlavourSys GmbH & Co. KG'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
