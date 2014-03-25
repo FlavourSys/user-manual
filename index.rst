@@ -1,22 +1,22 @@
 .. _index:
 
-################################
-FlavourSys Mint Manual |version|
-################################
+##############################################
+FlavourSys Strawberry 4 Admin Manual |version|
+##############################################
 
 .. role:: welcome
 
-:welcome:`Welcome to FlavourSys Mint!`
+:welcome:`Welcome to FlavourSys Strawberry 4 Admin!`
 
-Thank you for purchasing FlavourSys Mint. The following manual will explain how to setup your
-new Mint installation and give you an overview of the front end user functionalities of 
-Mint.
+Thank you for purchasing FlavourSys Strawberry 4. The following manual will give you an overview of the Admin Panel of Strawberry 4.
 
 .. toctree::
   :maxdepth: 2
   :numbered:
 
   introduction/index
-  installation/index
-  administration/index
-  user-manual/index
+  users/index
+  projects/index
+  view/index
+  archive/index
+  miscellaneous/index
