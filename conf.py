@@ -14,7 +14,7 @@
 import sys, os
 
 branding = {
-    'product': 'Strawberry 4 Admin',
+    'product': 'Strawberry 4 User Interface',
     'version': '1.0.0'
 }
 
@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'FlavourSys Strawberry 4 Admin Manual'
+project = u'FlavourSys Strawberry 4 User Interface Manual'
 copyright = u'2014, FlavourSys Technology GmbH'
 
 # The version info for the project you're documenting, acts as replacement for
