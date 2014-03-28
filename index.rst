@@ -14,7 +14,9 @@ Thank you for purchasing FlavourSys Strawberry 4. The following manual will give
   :maxdepth: 2
   :numbered:
 
+  introduction/index
   search/index
   project-list/index  
   working-with-projects/index  
   miscellaneous/index
+  legal/index
