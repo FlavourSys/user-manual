@@ -20,7 +20,7 @@ Strawberry collects and manages certain metadata for each projects These metadat
 * Project Size (The physical storage size of a project)
 * Access Information (Information about who created the project and who opened it last)
 * Access Rights (the accessibility of a project for certain users and teams) 
-* Project Status (The “work in progress” status of a project)
+* Project Status (The "work in progress" status of a project)
 * Visual Presentation of Projects (As described in section X)
 
 .. figure:: images/project-metadata.png

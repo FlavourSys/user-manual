@@ -14,7 +14,7 @@ The Project Pane lists every single editing project that you have access to and 
 Visual Presentation of Projects
 ***********************
 
-Strawberry 4 provides you with a list view for editing projects. Each row contains the project name, the creation date, the project size and additional visual information showing the current state of a project. Project states can be “online”, “locked”, “being archived”, “being retrieved”, archived and frozen.
+Strawberry 4 provides you with a list view for editing projects. Each row contains the project name, the creation date, the project size and additional visual information showing the current state of a project. Project states can be "online", "locked", "being archived", "being retrieved", archived and frozen.
 
 .. figure:: images/online-project.png
 	:align: center
@@ -58,14 +58,14 @@ Within the Project Pane, you can sort projects by
 * Physical Size (Size)
 * Creation Date (Created)
 
-To sort your projects or assets based upon one of these criteria enable the “projects” checkbox below the search field (disable the “assets” checkbox) and click on “Name”, “Size” or “Created”. If you sort by one of these values click the value again to reverse the order of the search results in an Ascending or Descending manner.
+To sort your projects or assets based upon one of these criteria enable the "projects" checkbox below the search field (disable the "assets" checkbox) and click on "Name", "Size" or "Created". If you sort by one of these values click the value again to reverse the order of the search results in an Ascending or Descending manner.
 
 
 ***********************
 Expanding/Contract Project Pane
 ***********************
 
-To see the asset content of a project in the project list click on the arrow on the left to the project name. Strawberry will load the first 150 assets of the project sorted by name. For projects containing more than 150 assets, if you scroll down the asset list you will recognize a message saying “You have reached the maximum amount of displayable assets in this view. Click "View All Assets" to switch the view.” Click this button to let Strawberry load all the assets from this project. To contract the project (“hide” its assets) imply click on the arrow on the left of the project name again.
+To see the asset content of a project in the project list click on the arrow on the left to the project name. Strawberry will load the first 150 assets of the project sorted by name. For projects containing more than 150 assets, if you scroll down the asset list you will recognize a message saying "You have reached the maximum amount of displayable assets in this view. Click "View All Assets" to switch the view." Click this button to let Strawberry load all the assets from this project. To contract the project ("hide" its assets) imply click on the arrow on the left of the project name again.
 
 .. figure:: images/expand-project-pane.png
 	:align: center
@@ -75,7 +75,7 @@ To see the asset content of a project in the project list click on the arrow on 
 Switching Between Grid View and List View for Assets
 ***********************
 
-To switch between grid view (a.k.a thumbnail view) or list view (a.k.a list of names) click the button on the right to the “sort by size” column.
+To switch between grid view (a.k.a thumbnail view) or list view (a.k.a list of names) click the button on the right to the "sort by size" column.
 
 .. figure:: images/switch-grid-list.png
 	:align: center
@@ -95,7 +95,7 @@ To expand or contract the project and asset pane click on the top right arrow of
 Switch Between Project and Asset View
 ***********************
 
-To switch between the project and the asset view just check or uncheck the “projects” and “assets” checkboxes below the search field. If both checkboxes are enabled Strawberry will show projects and assets in the list.
+To switch between the project and the asset view just check or uncheck the "projects" and "assets" checkboxes below the search field. If both checkboxes are enabled Strawberry will show projects and assets in the list.
 
 .. figure:: images/switch-project-asset.png
 	:align: center
