@@ -4,10 +4,6 @@
 FlavourSys Strawberry 4 User Interface Manual
 #############################################
 
-.. role:: welcome
-
-:welcome:`Welcome to FlavourSys Strawberry 4 User Interface!`
-
 .. toctree::
   :maxdepth: 2
   :numbered:
