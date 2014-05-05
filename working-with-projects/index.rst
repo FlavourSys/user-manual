@@ -92,7 +92,9 @@ To ensure that you don’t need to repeat these steps in the future open the Avi
 Adding a Subproject to a Project
 ********************************
 
-A subproject is a project that is a
+**Purpose:** When adding a project (a) to another project (b) the added project (a) becomes a subproject of its host project (b). When a user opens the host project (b) the subproject (a) will automatically be mounted along with its host project (b). A host project can have an unlimited amount of subprojects. Subprojects and their content are read only but you can use their related files and use them in your own editing projects.
+
+**Usage:** Login to the Strawberry Client and open a project of your choice. Then selct another project. Next to the name of the selected project you will see a button named "ADD". Press this button. Now when you have a look into the Strawberry media volume in your Finder/Explorer you should see a folder named after the project that you opened and another folder that has the name of the subproject that you added. Please keep in mind that you can not modify the content of the subproject folder. When you work with (for example) Fincal Cut 7 you can import files from the subproject directly into your Final Cut Project for editing. Strawberry saved the relationship between projects and their subprojects in its database, so if you switch to another editing system and open your project their it will also mount the related subproject(s) and all the media files that you used from it will be online.
 
 *****************
 Syncing a Project
