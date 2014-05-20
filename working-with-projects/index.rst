@@ -158,7 +158,7 @@ Archiving a Project
 To archive a project perform the following steps:
 
 	1. Select the project that you want to archive
-	2. Click on the "More..." bar on the right site of the user interface and then click "SEND TO ARCHIVE"
+	2. Perform a right click on the project and select "ARCHIVE"
 	3. Select an Archive Strategy and press "YES"
 
 .. figure:: images/project-description.png
@@ -182,7 +182,7 @@ Retrieving a Project
 
 **Purpose:** Strawberry allows certain users (admins & users but not guests) to archive and retrieve editing projects. When performing a retrieval operation on a project Strawberry copies every single file from this project back to the production storage and makes it available for editing.
 
-**Usage:** In order to retrieve an archived project select this project and click "OPEN". Strawberry will ask you if you want to retrieve the project from the archive. Confirm this message and wait for the project being retrieved from its archive location. During retrieval you will see an animation next to the project name. 
+**Usage:** In order to retrieve an archived project select this project and click "OPEN". Alternatively right click on the project and select "Archive" from the context menu. Strawberry will ask you if you want to retrieve the project from the archive. Confirm this message and wait for the project being retrieved from its archive location. During retrieval you will see an animation next to the project name. 
 
 .. figure:: images/project-to-be-arhived.png
 	:align: center
@@ -201,7 +201,7 @@ Copying a Project to Another Location
 **Usage:** To copy a project to another location please perform the following steps
 
 	1. Select the project that you want to copy
-	2. Click on the "More..." bar on the right site of the user interface and then click "COPY PROJECT TO..."
+	2. Right click on the project and then click "COPY PROJECT TO..."
 	3. Select a copy strategy and press "YES"
 
 ******************
@@ -212,7 +212,7 @@ Freezing a Project
 
 There are several use cases for freezing a project. If a user wants to "check out" a project to edit it at home the freeze feature helps to avoid modifications of the project while it is checked out.
 
-**Usage:** Select the project that you want to freeze and Click on the "More..." bar on the right site of the user interface and then click "FREEZE". Confirm the confirmation message with yes. The project now has a snowflake on the right to its projectname indicating that it has been frozen.
+**Usage:** Right click on the project that you want to freeze and then click "FREEZE". Confirm the confirmation message with yes. The project now has a snowflake on the right to its projectname indicating that it has been frozen.
 
 .. figure:: images/frozen-project.png
 	:align: center
@@ -226,7 +226,7 @@ Melting a Project
 
 **Purpose:** Melting a frozen project is necessary to make the project available for editing. If you are the project owner or an administrator you can melt any project at any time. If you are not able to melt a project that you did not freeze it might be that the administrator only granted this right for the person who froze it and administrational users.
 
-**Usage:** Select the project that you want to melt and click open and confirm the dialogue by clicking "YES". Strawberry will melt the project and open it right away. 
+**Usage:** Select the project that you want to melt and click open and confirm the dialogue by clicking "YES". Alternatively perform a right click on the project and select "MELT" from the context menu. Strawberry will melt the project and open it right away. 
 
 *****************
 Closing a Project
