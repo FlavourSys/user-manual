@@ -1,7 +1,7 @@
 .. _index:
 
 ####################################################################
-FlavourSys Strawberry 4 User Interface Manual (Updated May 15, 2014)
+FlavourSys Strawberry 4 User Interface Manual (Updated May 22, 2014)
 ####################################################################
 
 .. toctree::
