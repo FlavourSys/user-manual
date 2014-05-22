@@ -66,13 +66,13 @@ Boolean Search Operators
 
 Boolean searching is built on a method of symbolic logic. Boolean search techniques can be used to carry out effective searches, cutting out many unrelated documents. Strawberry supports the following boolean search operators:
 
-* **AND (+)**
-	Using + (AND) narrows a search by combining terms; it will retrieve objects that use both
+* **AND ([SPACE])**
+	Using [SPACE] (AND) narrows a search by combining terms; it will retrieve objects that use both
 	the search terms you specify, as in this example:
 
-	"Portland + Oregon"
-	"Footage + Berlin"
-	"Elvis + mp3"
+	"Portland [SPACE] Oregon"
+	"Footage [SPACE] Berlin"
+	"Elvis [SPACE] mp3"
 
 * **OR (or)**
 	Using OR broadens a search to include results that contain either of the words you type in. OR is a good tool to use when there are several common spellings or synonyms of a word, as in this example:
