@@ -119,6 +119,14 @@ Changing a Project Description
 	:align: center
 	:alt: Changing a Project Description
 
+******************************
+Changing a Project's Metadata
+******************************
+
+**Purpose:** When creating a new project Strawberry asks for project related metadata (if these are defined by the Administor). You can change these metadata after the project is created by using this function.
+
+**Usage:** Open the project from which you want to change the metadata. Hover the project name in the upper left corner in the front end. During the hovering a "Pen" icon appears. Click on this icon, reassign the metadata as you wish and click "SAVE".
+
 ***********************************************
 Defining User & Team Access Rights to a Project
 ***********************************************
