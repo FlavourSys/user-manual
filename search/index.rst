@@ -13,13 +13,20 @@ The Search Field
 General
 *******
 
-The Strawberry search function is designed to make search operations as efficient and fast as possible. You need to type at least three characters into the search field for the instant search to start. The search function allows you to search for:
+The Strawberry search function is designed to make search operations as efficient and fast as possible. The search function allows you to search for:
 
-* Project Names
-* Project Descriptions
-* Project Naming Conventions
-* Media & Non-Media Assets
-* Media & Non-Media Asset Descriptions
+* Project by Names
+* Project by Descriptions
+* Project by Statuses
+* Project by Custom Metadata
+* Project by Creator
+
+* Media Assets by Name
+* Media Assets by Description
+* Media Assets by Extension
+* Media Assets by Technical Metadata
+* Media Assets by the Name of Their Related Project
+* Non-Media Assets
 
 **********************
 Searching for Projects 
@@ -47,18 +54,16 @@ Strawberry will now display matching search results for both projects and assets
 	How assets and projects are visually divided in the combined search results
 
 
-*******************************************************
-Include/ Exclude Archived Projects & Assets from Search
-*******************************************************
+*************************
+Filtering Search Results
+*************************
 
-To include or exclude archived projects or assets from search, enable or disable the "archived" checkbox below the search field. You can recognize archived projects by their greyed-out font and the gray dot to the right of the item. You can recognize archived assets by their greyed-out name.
+If you are for looking for something very specific search filters are a great help to further reduce search results. Applying the proper filters you could exclude e.g. archived projects or specific file types from your search results. It is also possible to just display projects matching a specific status (e.g. just displaying projects which are in color grading).
 
-.. figure:: images/archived-projects.png
+.. figure:: images/filter.jpg
 	:align: center
-	:alt: Include/ Exclude Archived Projects & Assets from Search
-
-	An archived project is in between two online projects.
-
+	:alt: Search Filters
+	
 
 ************************
 Boolean Search Operators
