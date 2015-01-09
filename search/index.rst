@@ -82,13 +82,13 @@ Boolean searching is built on a method of symbolic logic. Boolean search techniq
 * **OR (or)**
 	Using OR broadens a search to include results that contain either of the words you type in. OR is a good tool to use when there are several common spellings or synonyms of a word, as in this example:
 
-	"liberal or democrat"
-	"wav or mp3"
-	"ocean or sea"
+	liberal [SPACE] democrat
+	wav [SPACE] mp3
+	ocean [SPACE] sea
 
 * **NOT (-)**
 	Using NOT will narrow a search by excluding certain search terms. NOT retrieves documents that contain the first, but not the second, of the search terms entered, as in this example:
 
-	"Oregon - travel" 
-	"Music - Wav" 
-	"Ocean - Fish"
+	"Oregon" - "travel" 
+	"Music" - "Wav" 
+	"Ocean" - "Fish"
