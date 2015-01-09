@@ -4,7 +4,7 @@
 The Project & Asset Pane
 ########################
 
-The Project Pane lists every single editing project that you have access to and it lets you sort projects by different criteria. It also indicates the current status of a project.
+The Project Panel lists every single editing project that you have access to and it lets you sort projects by different criteria. It also indicates the current status of a project.
 
 .. figure:: images/project-pane.png
 	:align: center
