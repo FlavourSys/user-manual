@@ -95,7 +95,7 @@ To switch between the project and the asset view just check or uncheck the "proj
 *****************************************************
 Importing another Strawberry Managed Premiere Project
 *****************************************************
-In order tom import another Premiere project into your own project use the panel to find that other project and select it. Once the project is selected you will see an "ADD" button next to its name. Pressing this button will trigger Premiere to import the project into your own project.
+In order to import another Premiere project into your own project use the panel to find that other project and select it. Once the project is selected you will see an "ADD" button next to its name. Pressing this button will trigger Premiere to import the project into your own project.
 
 .. figure:: images/import-premiere-project.png
 	:align: center
