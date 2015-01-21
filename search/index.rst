@@ -35,9 +35,9 @@ Searching for Projects
 To search for an editing project enable the **"projects"** checkbox below the search field and type your search criteria into the search field. Projects which have the search criteria in their **name**, **naming convention** or **description** will be displayed in the list below the search field.
 
 
-**********************
+*************************
 Searching within Projects
-**********************
+*************************
 
 In order to search for assets within a project expand the project by clicking on the arrow key left to the project name. Once the project is expanded you will see a text field called "Search this Project". Once you enter something into this text field Strawberry will start searching with this project.
 
