@@ -92,7 +92,19 @@ To expand or contract the project and asset pane click on the top right arrow of
 	:alt: Expand/Contract the Project and Asset Pane
 
 ***********************
-Switch Between Project and Asset View
+Folder Navigation vs Flat Asset View
+***********************
+
+Purpose: When browsing projects, Strawberry offers two navigation styles from which users can choose in the user settings. The default View (navigation style) is the so called folder navigation. This view enables users to browse the content of projects just as they would to in a file browser. Additionally folder navigations gives user the ability to search assets within a specific folder of a project. The default view can be changed in the user settings which can be accessed by clicking the settings wheel in the lower right corner of the Strawberry client and then by choosing the desired navigation style from the "Navigation Style" drop down menu.
+
+.. figure:: images/navigation_style.jpg
+	:align: center
+	:alt: Switching Between Folder Navigation and Flat Asset View
+
+
+
+***********************
+Switching Between Project and Asset View
 ***********************
 
 To switch between the project and the asset view just check or uncheck the "projects" and "assets" checkboxes below the search field. If both checkboxes are enabled Strawberry will show projects and assets in the list.
