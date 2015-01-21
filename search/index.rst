@@ -41,7 +41,7 @@ Searching within Projects
 
 In order to search for assets within a project expand the project by clicking on the arrow key left to the project name. Once the project is expanded you will see a text field called "Search this Project". Once you enter something into this text field Strawberry will start searching with this project.
 
-.. figure:: images/search_within_project.jpg
+.. figure:: images/searchwithin.jpg
 	:align: center
 	:alt: Searching within Projects
 
