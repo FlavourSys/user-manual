@@ -2930,7 +2930,7 @@ a.wy-text-neutral:hover {
 h1, h2, .rst-content p.caption, h3, h4, h5, h6, legend {
 	margin-top: 0;
 	font-weight: 700;
-	font-family: Verdana, Geneva, sans-serif
+	font-family: Verdana, Geneva, sans-serif;
 }
 p {
 	line-height: 24px;
@@ -2939,10 +2939,11 @@ p {
 	margin-bottom: 24px
 }
 h1 {
-	font-size: 150%
+	font-size: 150%;
 }
 h2, .rst-content p.caption {
-	font-size: 120%
+	font-size: 120%;
+
 }
 h3 {
 	font-size: 125%
