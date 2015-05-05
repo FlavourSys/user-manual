@@ -12,6 +12,7 @@
 # serve to show the default.
 
 import sys, os
+import sphinx_rtd_theme
 
 branding = {
     'product': 'Strawberry 4 User Interface',
@@ -99,23 +100,25 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'flavoursys'
+#html_theme = 'flavoursys'
+html_theme = 'sphinx_rtd_theme'
+#html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {
-    "linkcolor": "#2DA6F7",
-    "visitedlinkcolor": "#20A0E1",
-    # "sidebarbgcolor": "#7294C3",
-    "sidebarbgcolor": "#7E7E7E",
-    "sidebarlinkcolor": "#A1BFE4",
-    "relbarbgcolor": "#4F4D4E",
-    "relbarlinkcolor": "#2DA6F7",
-    "footerbgcolor": "#373737",
-    "rightsidebar": "true",
-    "externalrefs": "true"
-}
+#html_theme_options = {
+#    "linkcolor": "#2DA6F7",
+#    "visitedlinkcolor": "#20A0E1",
+#    # "sidebarbgcolor": "#7294C3",
+#    "sidebarbgcolor": "#7E7E7E",
+#    "sidebarlinkcolor": "#A1BFE4",
+#    "relbarbgcolor": "#4F4D4E",
+#    "relbarlinkcolor": "#2DA6F7",
+#    "footerbgcolor": "#373737",
+#    "rightsidebar": "true",
+#    "externalrefs": "true"
+#}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ['_themes']
